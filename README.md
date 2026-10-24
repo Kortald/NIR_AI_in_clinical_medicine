@@ -68,7 +68,6 @@ src/
   visualisation.py       функции построения рисунков
   report.py              сборка отчёта
 tests/                   тесты (pytest)
-data/sources/            реестр источников
 results/                 результаты прогонов: CSV, JSON и рисунки
 ```
 
