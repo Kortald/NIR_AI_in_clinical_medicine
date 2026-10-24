@@ -15,3 +15,5 @@ results/old/
 results/*.xlsx
 
 data/
+
+results/figures/*.pdf
