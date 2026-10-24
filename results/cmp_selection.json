@@ -1,0 +1,19 @@
+{
+  "rf_min_samples_leaf": 3,
+  "rf_n_trees": 500,
+  "rf_leaf_grid": [
+    1,
+    2,
+    3,
+    5,
+    8
+  ],
+  "thresholds": {
+    "own_lr": 0.44,
+    "sklearn_lr": 0.44,
+    "random_forest": 0.4
+  },
+  "test_evaluated": true,
+  "max_abs_prob_diff_own_vs_sklearn_test": 7.2242827997559544e-06,
+  "elapsed_seconds": 138.6
+}

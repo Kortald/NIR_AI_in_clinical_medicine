@@ -1,0 +1,3 @@
+solver,n_iter,max_abs_diff_weights,abs_diff_intercept
+lbfgs,29,3.236192271871552e-05,1.2952288086676145e-05
+newton-cholesky,8,3.2509917963552404e-05,1.2804461640369968e-05

@@ -1,0 +1,21 @@
+{
+  "C": 0.17782794100389226,
+  "l2": 0.012359150004183497,
+  "threshold": 0.44,
+  "oof_sensitivity": 0.95,
+  "oof_specificity": 0.987719298245614,
+  "min_sensitivity": 0.95,
+  "n_dev": 455,
+  "n_test": 114,
+  "n_splits": 5,
+  "n_repeats": 10,
+  "learning_rate": 0.5,
+  "epochs_cap": 30000,
+  "tol": 1e-06,
+  "cv_converged_share": 1.0,
+  "final_epochs": 1231,
+  "final_converged": true,
+  "random_state": 42,
+  "test_evaluated": true,
+  "elapsed_seconds": 112.3
+}

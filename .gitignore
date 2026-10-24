@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+
+backup/
+Claude outputs/
+
+text/
+
+results/quick/
+results/old/
+results/*.xlsx
+
+data/
