@@ -55,7 +55,7 @@ def main(results_dir):
     n_dev = len(oof_table)
     repeats = len(oof_columns)
     oof_note = (
-        f"Данные: out-of-fold предсказания на development "
+        f"Данные: out-of-fold предсказания на обучающей выборке "
         f"(n = {n_dev}, повторная CV {selection['n_splits']}×{repeats})"
     )
 
@@ -65,7 +65,7 @@ def main(results_dir):
         summary, selection["C"], selection["n_splits"],
         figures_dir / "fig1_logloss_vs_c",
         note=f"Данные: повторная CV {selection['n_splits']}×{repeats} "
-             f"на development (n = {n_dev})",
+             f"на обучающей выборке (n = {n_dev})",
     )
 
     made += viz.plot_threshold_curves(
@@ -75,7 +75,7 @@ def main(results_dir):
 
     made += viz.plot_coefficients(
         coefficients, figures_dir / "fig5_coefficients",
-        note="Модель обучена на всём development; признаки стандартизованы.\n"
+        note="Модель обучена на всей обучающей выборке; признаки стандартизованы.\n"
              "Признаки сильно коррелируют, поэтому вес отдельного признака "
              "нестабилен и не равен его вкладу.",
     )
